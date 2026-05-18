@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nissi Dental – Smile With Confidence | Hyderabad</title>
+<meta name="description" content="Trusted multi-specialty dental clinic in Hyderabad. Painless treatments, honest pricing, experienced doctors. Book your appointment today."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+<!-- GTM HEAD TAG - Replace GTM-W5KN2HXM with your GTM ID in Phase 2 -->
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W5KN2HXM');</script> -->
+
+<style>
+:root {
+  --ivory:    #FAF7F2;
+  --cream:    #F2ECE3;
+  --warm:     #E8DDD0;
+  --sand:     #C9B99A;
+  --brown:    #8B6F52;
+  --ink:      #1C1917;
+  --ink2:     #3D3530;
+  --ink3:     #6B5F58;
+  --teal:     #2D6E6A;
+  --teal-lt:  #EAF4F3;
+  --teal-mid: #4A9E99;
+  --gold:     #C4913A;
+  --gold-lt:  #FBF3E5;
+  --red:      #C0392B;
+  --radius:   12px;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--ivory);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ── TYPOGRAPHY ── */
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 600; }
+h2 { font-size: clamp(1.7rem, 3.5vw, 2.6rem); font-weight: 400; }
+h3 { font-size: 1.2rem; font-weight: 600; }
+p  { color: var(--ink2); }
+
+/* ── LAYOUT ── */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+section    { padding: 80px 0; }
+
+/* ── STICKY NAV ── */
+nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(250,247,242,0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--warm);
+  padding: 16px 0;
+}
+.nav-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  max-width: 1100px; margin: 0 auto; padding: 0 24px;
+}
+.logo { font-family: var(--font-body); font-size: 1.25rem; color: var(--teal); letter-spacing: 2px; font-weight: 500; text-transform: uppercase; }
+.logo span { color: var(--gold); }
+.nav-cta {
+  background: var(--teal); color: #fff;
+  padding: 10px 22px; border-radius: 50px;
+  text-decoration: none; font-size: 0.9rem; font-weight: 500;
+  transition: background 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+.nav-cta:hover { background: #1f4e4b; transform: translateY(-1px); }
+
+/* ── HERO ── */
+#hero {
+  background: linear-gradient(160deg, var(--cream) 0%, var(--ivory) 60%);
+  padding: 80px 0 60px;
+  position: relative; overflow: hidden;
+}
+#hero::before {
+  content: '';
+  position: absolute; top: -80px; right: -80px;
+  width: 480px; height: 480px;
+  background: radial-gradient(circle, rgba(45,110,106,0.07) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.hero-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 60px; align-items: center;
+}
+.hero-eyebrow {
+  display: inline-block;
+  background: var(--teal-lt); color: var(--teal);
+  padding: 6px 16px; border-radius: 50px;
+  font-size: 0.82rem; font-weight: 500; letter-spacing: 0.5px;
+  margin-bottom: 20px; text-transform: uppercase;
+}
+.hero-title { margin-bottom: 20px; }
+.hero-title em { font-style: italic; color: var(--teal); }
+.hero-sub { font-size: 1.05rem; color: var(--ink3); margin-bottom: 32px; max-width: 460px; }
+.hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 40px; }
+.btn-primary {
+  background: var(--teal); color: #fff;
+  padding: 14px 28px; border-radius: 50px;
+  text-decoration: none; font-weight: 500; font-size: 1rem;
+  display: inline-flex; align-items: center; gap: 8px;
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-primary:hover { background: #1f4e4b; transform: translateY(-2px); }
+.btn-wa {
+  background: #25D366; color: #fff;
+  padding: 14px 28px; border-radius: 50px;
+  text-decoration: none; font-weight: 500; font-size: 1rem;
+  display: inline-flex; align-items: center; gap: 8px;
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-wa:hover { background: #1da851; transform: translateY(-2px); }
+.btn-secondary {
+  background: transparent; color: var(--teal);
+  border: 1.5px solid var(--teal);
+  padding: 13px 26px; border-radius: 50px;
+  text-decoration: none; font-weight: 500; font-size: 1rem;
+  transition: background 0.2s;
+}
+.btn-secondary:hover { background: var(--teal-lt); }
+
+.hero-trust { display: flex; gap: 28px; flex-wrap: wrap; }
+.trust-pill {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.88rem; color: var(--ink3);
+}
+.trust-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--teal); }
+
+/* Hero visual card */
+.hero-visual {
+  background: #fff; border-radius: 20px;
+  box-shadow: 0 8px 40px rgba(28,25,23,0.09);
+  padding: 32px; position: relative;
+}
+.hero-visual::before {
+  content: '★★★★★';
+  display: block; color: var(--gold); font-size: 1.1rem; margin-bottom: 12px; letter-spacing: 2px;
+}
+.hero-quote {
+  font-family: var(--font-display); font-style: italic;
+  font-size: 1.25rem; color: var(--ink); margin-bottom: 16px; line-height: 1.5;
+}
+.hero-patient { display: flex; align-items: center; gap: 12px; }
+.patient-avatar {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal-lt), var(--teal-mid));
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 1.1rem; color: var(--teal); font-weight: 600;
+}
+.patient-name { font-weight: 500; font-size: 0.95rem; }
+.patient-role { font-size: 0.82rem; color: var(--ink3); }
+
+.stat-row {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 12px; margin-top: 20px;
+}
+.stat-box {
+  background: var(--cream); border-radius: 12px;
+  padding: 16px; text-align: center;
+}
+.stat-num { font-family: var(--font-display); font-size: 1.8rem; color: var(--teal); font-weight: 600; }
+.stat-lbl { font-size: 0.78rem; color: var(--ink3); margin-top: 2px; }
+
+/* ── TRUST BAR ── */
+#trust-bar {
+  background: var(--teal);
+  padding: 24px 0;
+}
+.trust-items {
+  display: flex; gap: 40px; flex-wrap: wrap;
+  justify-content: center; align-items: center;
+}
+.trust-item {
+  display: flex; align-items: center; gap: 10px;
+  color: rgba(255,255,255,0.9); font-size: 0.92rem; font-weight: 500;
+}
+.trust-icon { font-size: 1.2rem; }
+
+/* ── PAIN SECTION ── */
+#pain { background: var(--cream); }
+.pain-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+.pain-label {
+  font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1px;
+  color: var(--sand); font-weight: 500; margin-bottom: 12px;
+}
+.pain-list { list-style: none; margin-top: 24px; }
+.pain-list li {
+  display: flex; gap: 14px; padding: 16px 0;
+  border-bottom: 1px solid var(--warm); font-size: 0.97rem; color: var(--ink2);
+  align-items: flex-start;
+}
+.pain-list li:last-child { border-bottom: none; }
+.pain-num {
+  flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%;
+  background: var(--warm); display: flex; align-items: center; justify-content: center;
+  font-size: 0.75rem; font-weight: 600; color: var(--brown);
+}
+.solution-card {
+  background: #fff; border-radius: 16px;
+  padding: 32px; box-shadow: 0 4px 24px rgba(28,25,23,0.06);
+}
+.solution-card h3 { font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 16px; }
+.solution-item {
+  display: flex; gap: 12px; padding: 12px 0;
+  border-bottom: 1px solid var(--cream); align-items: flex-start;
+}
+.solution-item:last-child { border-bottom: none; }
+.check { color: var(--teal); font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; }
+.solution-item p { font-size: 0.95rem; color: var(--ink2); margin: 0; }
+.solution-item strong { color: var(--ink); }
+
+/* ── SERVICES ── */
+#services { background: var(--ivory); }
+.section-header { text-align: center; margin-bottom: 52px; }
+.section-eyebrow {
+  display: inline-block; font-size: 0.78rem; text-transform: uppercase;
+  letter-spacing: 1.2px; color: var(--teal); font-weight: 500; margin-bottom: 12px;
+}
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.service-card {
+  background: #fff; border-radius: 16px; padding: 28px;
+  border: 1px solid var(--warm);
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+  cursor: pointer;
+}
+.service-card:hover {
+  box-shadow: 0 8px 32px rgba(45,110,106,0.12);
+  transform: translateY(-3px);
+  border-color: var(--teal-mid);
+}
+.service-icon {
+  width: 48px; height: 48px; border-radius: 12px;
+  background: var(--teal-lt); display: flex; align-items: center;
+  justify-content: center; font-size: 1.4rem; margin-bottom: 16px;
+}
+.service-card h3 { font-size: 1rem; margin-bottom: 8px; }
+.service-card p { font-size: 0.88rem; color: var(--ink3); line-height: 1.6; }
+.service-price {
+  margin-top: 14px; font-size: 0.82rem;
+  color: var(--teal); font-weight: 500;
+}
+
+/* ── WHY US ── */
+#why { background: var(--cream); }
+.why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.why-list { list-style: none; }
+.why-item {
+  display: flex; gap: 20px; padding: 20px 0;
+  border-bottom: 1px solid var(--warm); align-items: flex-start;
+}
+.why-item:last-child { border-bottom: none; }
+.why-icon-wrap {
+  flex-shrink: 0; width: 48px; height: 48px; border-radius: 12px;
+  background: var(--teal-lt); display: flex; align-items: center;
+  justify-content: center; font-size: 1.3rem;
+}
+.why-item h3 { font-family: var(--font-body); font-size: 0.97rem; font-weight: 500; margin-bottom: 4px; }
+.why-item p  { font-size: 0.88rem; color: var(--ink3); margin: 0; }
+
+.doctor-card {
+  background: #fff; border-radius: 20px;
+  padding: 36px; box-shadow: 0 8px 40px rgba(28,25,23,0.09);
+}
+.doctor-card h3 { font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 6px; }
+.doctor-tag {
+  display: inline-block; background: var(--teal-lt); color: var(--teal);
+  padding: 4px 12px; border-radius: 50px; font-size: 0.8rem;
+  font-weight: 500; margin-bottom: 20px;
+}
+.doctor-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+.doc-stat { text-align: center; padding: 16px; background: var(--cream); border-radius: 10px; }
+.doc-stat-n { font-family: var(--font-display); font-size: 1.6rem; color: var(--teal); }
+.doc-stat-l { font-size: 0.78rem; color: var(--ink3); margin-top: 2px; }
+.creds { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.cred-pill {
+  background: var(--gold-lt); color: var(--brown);
+  padding: 5px 12px; border-radius: 50px; font-size: 0.78rem; font-weight: 500;
+}
+
+/* ── TESTIMONIALS ── */
+#testimonials { background: var(--ivory); }
+.testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.testi-card {
+  background: #fff; border-radius: 16px; padding: 28px;
+  border: 1px solid var(--warm);
+}
+.stars { color: var(--gold); font-size: 0.9rem; letter-spacing: 2px; margin-bottom: 14px; }
+.testi-text { font-size: 0.95rem; color: var(--ink2); margin-bottom: 20px; line-height: 1.7; font-style: italic; }
+.testi-author { display: flex; align-items: center; gap: 12px; }
+.testi-avatar {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal-lt), var(--teal-mid));
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); color: var(--teal); font-weight: 600;
+}
+.testi-name { font-weight: 500; font-size: 0.9rem; }
+.testi-role { font-size: 0.78rem; color: var(--ink3); }
+.testi-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #F0FBF4; color: #1A7F41; padding: 4px 10px;
+  border-radius: 50px; font-size: 0.75rem; font-weight: 500; margin-top: 8px;
+}
+
+/* ── FAQ ── */
+#faq { background: var(--cream); }
+.faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+.faq-list { list-style: none; }
+.faq-item { border-bottom: 1px solid var(--warm); }
+.faq-q {
+  width: 100%; background: none; border: none;
+  text-align: left; padding: 20px 0; cursor: pointer;
+  font-family: var(--font-body); font-size: 0.97rem; font-weight: 500;
+  color: var(--ink); display: flex; justify-content: space-between;
+  gap: 12px; align-items: center;
+}
+.faq-q:hover { color: var(--teal); }
+.faq-q .arrow { font-size: 1.1rem; transition: transform 0.2s; flex-shrink: 0; }
+.faq-q.open .arrow { transform: rotate(45deg); }
+.faq-a { display: none; padding-bottom: 16px; font-size: 0.92rem; color: var(--ink3); line-height: 1.7; }
+.faq-a.open { display: block; }
+
+.faq-cta-box {
+  background: var(--teal); border-radius: 20px;
+  padding: 40px; color: #fff;
+}
+.faq-cta-box h3 {
+  font-family: var(--font-display); font-size: 1.6rem;
+  color: #fff; margin-bottom: 12px;
+}
+.faq-cta-box p { color: rgba(255,255,255,0.82); margin-bottom: 28px; font-size: 0.97rem; }
+.btn-white {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #fff; color: var(--teal);
+  padding: 14px 28px; border-radius: 50px;
+  text-decoration: none; font-weight: 500; font-size: 0.97rem;
+  transition: transform 0.15s;
+  width: 100%; justify-content: center; margin-bottom: 12px;
+}
+.btn-white:hover { transform: translateY(-2px); }
+.btn-wa-dark {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(255,255,255,0.15); color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 13px 28px; border-radius: 50px;
+  text-decoration: none; font-weight: 500; font-size: 0.97rem;
+  width: 100%; justify-content: center;
+  transition: background 0.2s;
+}
+.btn-wa-dark:hover { background: rgba(255,255,255,0.25); }
+
+/* ── BOOKING FORM ── */
+#book { background: var(--ivory); }
+.form-wrap {
+  max-width: 600px; margin: 0 auto;
+  background: #fff; border-radius: 20px;
+  padding: 44px; box-shadow: 0 8px 40px rgba(28,25,23,0.09);
+}
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-group { margin-bottom: 20px; }
+label { display: block; font-size: 0.88rem; font-weight: 500; margin-bottom: 6px; color: var(--ink2); }
+input, select, textarea {
+  width: 100%; padding: 12px 16px;
+  border: 1.5px solid var(--warm); border-radius: 10px;
+  font-family: var(--font-body); font-size: 0.95rem; color: var(--ink);
+  background: var(--ivory); outline: none;
+  transition: border-color 0.2s;
+}
+input:focus, select:focus, textarea:focus { border-color: var(--teal); }
+textarea { resize: vertical; min-height: 100px; }
+.submit-btn {
+  width: 100%; background: var(--teal); color: #fff;
+  border: none; padding: 16px; border-radius: 50px;
+  font-family: var(--font-body); font-size: 1rem; font-weight: 500;
+  cursor: pointer; transition: background 0.2s, transform 0.15s;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+}
+.submit-btn:hover { background: #1f4e4b; transform: translateY(-2px); }
+.form-note { text-align: center; font-size: 0.82rem; color: var(--ink3); margin-top: 14px; }
+
+/* ── FOOTER ── */
+footer {
+  background: var(--ink); color: rgba(255,255,255,0.75);
+  padding: 48px 0 24px;
+}
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; margin-bottom: 40px; }
+.footer-logo { font-family: var(--font-display); font-size: 1.2rem; color: #fff; margin-bottom: 12px; }
+.footer-logo span { color: var(--gold); font-style: italic; }
+.footer-about { font-size: 0.88rem; line-height: 1.7; }
+.footer-col h4 { color: #fff; font-size: 0.88rem; font-weight: 500; margin-bottom: 16px; letter-spacing: 0.5px; }
+.footer-col a, .footer-col p {
+  display: block; color: rgba(255,255,255,0.65); font-size: 0.88rem;
+  text-decoration: none; margin-bottom: 8px; transition: color 0.2s;
+}
+.footer-col a:hover { color: var(--teal-mid); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 24px; display: flex; justify-content: space-between;
+  flex-wrap: wrap; gap: 12px; font-size: 0.82rem; color: rgba(255,255,255,0.4);
+}
+
+/* ── STICKY CONVERSION BAR (top) ── */
+.conv-bar {
+  background: var(--ink); color: #fff;
+  padding: 10px 0; text-align: center;
+  font-size: 0.85rem; font-weight: 500;
+  display: flex; align-items: center; justify-content: center; gap: 16px;
+  flex-wrap: wrap;
+}
+.conv-bar a {
+  color: #fff; text-decoration: none;
+  background: var(--gold); padding: 5px 14px; border-radius: 50px;
+  font-size: 0.82rem; font-weight: 600; transition: background 0.2s;
+  white-space: nowrap;
+}
+.conv-bar a:hover { background: #a8762d; }
+.conv-bar .sep { opacity: 0.35; }
+
+/* ── CALL BUTTON ── */
+.btn-call {
+  background: var(--teal); color: #fff;
+  padding: 14px 28px; border-radius: 50px;
+  text-decoration: none; font-weight: 500; font-size: 1rem;
+  display: inline-flex; align-items: center; gap: 8px;
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-call:hover { background: #1f4e4b; transform: translateY(-2px); }
+
+/* ── TRIPLE CTA BLOCK ── */
+.triple-cta {
+  background: var(--ink); border-radius: 20px;
+  padding: 44px 40px; margin-top: 60px;
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px; overflow: hidden;
+}
+.triple-cta-item {
+  padding: 32px 28px; text-align: center;
+  background: #2a2522; position: relative;
+}
+.triple-cta-item:first-child { border-radius: 16px 0 0 16px; }
+.triple-cta-item:last-child  { border-radius: 0 16px 16px 0; }
+.triple-cta-item.featured { background: var(--teal); }
+.triple-icon { font-size: 2rem; margin-bottom: 12px; }
+.triple-cta-item h3 {
+  font-family: var(--font-display); font-size: 1.1rem;
+  color: #fff; margin-bottom: 8px;
+}
+.triple-cta-item p { font-size: 0.85rem; color: rgba(255,255,255,0.65); margin-bottom: 20px; }
+.triple-cta-item .btn-primary { width: 100%; justify-content: center; font-size: 0.9rem; padding: 12px 20px; }
+.triple-cta-item .btn-wa      { width: 100%; justify-content: center; font-size: 0.9rem; padding: 12px 20px; }
+.triple-cta-item .btn-call    { width: 100%; justify-content: center; font-size: 0.9rem; padding: 12px 20px; }
+
+/* ── URGENCY BADGE ── */
+.urgency-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #FEF3C7; color: #92400E;
+  border: 1px solid #FDE68A;
+  padding: 6px 14px; border-radius: 50px;
+  font-size: 0.8rem; font-weight: 600; margin-bottom: 16px;
+}
+.urgency-dot { width: 7px; height: 7px; border-radius: 50%; background: #D97706; animation: blink 1.4s ease-in-out infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+/* ── LIVE COUNTER ── */
+.live-count {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 0.85rem; color: var(--ink3); margin-bottom: 28px;
+}
+.live-count strong { color: var(--teal); }
+
+/* ── FORM ENHANCEMENTS ── */
+.form-header-trio {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px; margin-bottom: 28px;
+}
+.form-channel-btn {
+  border: 1.5px solid var(--warm); border-radius: 12px;
+  padding: 14px 10px; text-align: center; cursor: pointer;
+  transition: border-color 0.2s, background 0.2s; background: var(--ivory);
+}
+.form-channel-btn:hover, .form-channel-btn.active {
+  border-color: var(--teal); background: var(--teal-lt);
+}
+.form-channel-btn .ch-icon { font-size: 1.4rem; display: block; margin-bottom: 4px; }
+.form-channel-btn .ch-label { font-size: 0.78rem; font-weight: 500; color: var(--ink2); }
+
+/* ── STICKY BOTTOM BAR (mobile) ── */
+.sticky-bottom {
+  display: none;
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 199;
+  background: var(--ink); padding: 12px 16px;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .sticky-bottom { display: flex; }
+  .sticky-bottom a { flex: 1; text-align: center; justify-content: center; font-size: 0.88rem; padding: 12px 8px; }
+  body { padding-bottom: 72px; }
+  .triple-cta { grid-template-columns: 1fr; }
+  .triple-cta-item:first-child { border-radius: 16px 16px 0 0; }
+  .triple-cta-item:last-child  { border-radius: 0 0 16px 16px; }
+  .form-header-trio { grid-template-columns: 1fr 1fr 1fr; }
+}
+
+
+.wa-float {
+  position: fixed; bottom: 28px; right: 28px; z-index: 200;
+  width: 56px; height: 56px; border-radius: 50%;
+  background: #25D366; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem; text-decoration: none;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+  transition: transform 0.2s, box-shadow 0.2s;
+  animation: pulse-wa 2.5s ease-in-out infinite;
+}
+.wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,0.6); }
+@keyframes pulse-wa {
+  0%,100% { box-shadow: 0 4px 20px rgba(37,211,102,0.45); }
+  50%      { box-shadow: 0 4px 28px rgba(37,211,102,0.75), 0 0 0 10px rgba(37,211,102,0.12); }
+}
+
+/* ── ANIMATIONS ── */
+.fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  section { padding: 60px 0; }
+  .hero-grid, .pain-grid, .why-grid, .faq-grid, .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .services-grid, .testi-grid { grid-template-columns: 1fr; }
+  .stat-row { grid-template-columns: 1fr 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .doctor-stats { grid-template-columns: 1fr 1fr; }
+  .trust-items { gap: 20px; }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.6rem; }
+  .hero-ctas { flex-direction: column; }
+  .btn-primary, .btn-wa, .btn-secondary { text-align: center; justify-content: center; }
+  .form-wrap { padding: 28px 20px; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- GTM NOSCRIPT - Replace GTM-W5KN2HXM with your GTM ID in Phase 2 -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5KN2HXM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+
+<!-- ═══════════════════════════════════════════ CONV BAR ═══ -->
+<div class="conv-bar">
+  <span>📞 Painless Dental Care in Hyderabad &nbsp;<span class="sep">|</span>&nbsp; Free Consultation Available</span>
+  <a href="tel:+919182417298" data-gtm="topbar_call_click">📞 Call Now</a>
+  <a href="https://wa.me/919182417298?text=Hi%2C%20I%27d%20like%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener" data-gtm="topbar_wa_click" style="background:#25D366">💬 WhatsApp</a>
+</div>
+
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">Nissi<span>Dental</span></div>
+    <a href="#book" class="nav-cta" data-gtm="nav_book_click">Book Appointment →</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════ HERO ═══ -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="fade-in">
+        <div class="urgency-badge"><span class="urgency-dot"></span> 3 free slots left this week</div>
+        <span class="hero-eyebrow">📍 Hyderabad · Gachibowli · Kondapur</span>
+        <h1 class="hero-title">
+          Your smile<br/>deserves to feel<br/><em>this confident</em>
+        </h1>
+        <p class="hero-sub">
+          We know you've been putting this off. Fear, bad past experiences, busy schedules — we hear it every day. At Preethi Dental, patients leave feeling cared for, not sold to.
+        </p>
+        <div class="hero-ctas">
+          <a href="#book" class="btn-primary" data-gtm="hero_book_click">📅 Book Free Consultation</a>
+          <a href="https://wa.me/919182417298?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment" class="btn-wa" target="_blank" rel="noopener" data-gtm="hero_wa_click">💬 WhatsApp Us</a>
+          <a href="tel:+919182417298" class="btn-call" data-gtm="hero_call_click">📞 Call Now</a>
+        </div>
+        <div class="live-count">👁 <strong id="viewCount">12 people</strong> are viewing this page right now</div>
+        <div class="hero-trust">
+          <div class="trust-pill"><span class="dot"></span>4.9★ on Google</div>
+          <div class="trust-pill"><span class="dot"></span>500+ Happy Patients</div>
+          <div class="trust-pill"><span class="dot"></span>Painless Treatments</div>
+        </div>
+      </div>
+
+      <div class="hero-visual fade-in" style="transition-delay:0.15s">
+        <p class="hero-quote">"I was terrified of root canals. They explained everything step by step and I felt zero pain. I finally have my confidence back."</p>
+        <div class="hero-patient">
+          <div class="patient-avatar">P</div>
+          <div>
+            <div class="patient-name">Priya R.</div>
+            <div class="patient-role">IT Professional, Gachibowli</div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-box">
+            <div class="stat-num">500+</div>
+            <div class="stat-lbl">Smile transformations</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">10+</div>
+            <div class="stat-lbl">Years of experience</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">4.9★</div>
+            <div class="stat-lbl">Google rating</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num">0</div>
+            <div class="stat-lbl">Hidden charges</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ TRUST BAR ═══ -->
+<div id="trust-bar">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item"><span class="trust-icon">🏆</span>Multi-Specialty Clinic</div>
+      <div class="trust-item"><span class="trust-icon">✅</span>Transparent Pricing</div>
+      <div class="trust-item"><span class="trust-icon">💉</span>Painless Anaesthesia</div>
+      <div class="trust-item"><span class="trust-icon">🧼</span>Sterilised Equipment</div>
+      <div class="trust-item"><span class="trust-icon">📲</span>Same-Day Appointments</div>
+      <div class="trust-item"><span class="trust-icon">👨‍👩‍👧</span>Family-Friendly</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ PAIN → SOLUTION ═══ -->
+<section id="pain">
+  <div class="container">
+    <div class="pain-grid">
+      <div class="fade-in">
+        <div class="pain-label">We hear this every day</div>
+        <h2>Does any of this sound familiar?</h2>
+        <ul class="pain-list">
+          <li>
+            <div class="pain-num">1</div>
+            <span>"I'm scared the treatment will hurt — I'll go when it becomes unbearable."</span>
+          </li>
+          <li>
+            <div class="pain-num">2</div>
+            <span>"I don't smile in photos anymore. My teeth embarrass me."</span>
+          </li>
+          <li>
+            <div class="pain-num">3</div>
+            <span>"Every dentist suggests expensive treatments. I don't know who to trust."</span>
+          </li>
+          <li>
+            <div class="pain-num">4</div>
+            <span>"I'm too busy with work and family — my dental health keeps getting postponed."</span>
+          </li>
+          <li>
+            <div class="pain-num">5</div>
+            <span>"I had a horrible experience before. I'm scared to go back to any clinic."</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="solution-card fade-in" style="transition-delay:0.1s">
+        <h3>Here's what makes us different</h3>
+        <div class="solution-item">
+          <span class="check">✓</span>
+          <p><strong>No pain, no judgment.</strong> We use gentle anaesthesia and explain every step before we do it.</p>
+        </div>
+        <div class="solution-item">
+          <span class="check">✓</span>
+          <p><strong>Honest diagnosis only.</strong> We'll never recommend a procedure you don't actually need.</p>
+        </div>
+        <div class="solution-item">
+          <span class="check">✓</span>
+          <p><strong>Fixed, transparent pricing.</strong> You'll know the full cost before treatment begins.</p>
+        </div>
+        <div class="solution-item">
+          <span class="check">✓</span>
+          <p><strong>Evening & weekend slots.</strong> Because your schedule matters as much as your health.</p>
+        </div>
+        <div class="solution-item">
+          <span class="check">✓</span>
+          <p><strong>WhatsApp follow-up care.</strong> Your doctor is accessible even after your visit.</p>
+        </div>
+        <a href="#book" class="btn-primary" style="margin-top:24px; text-decoration:none; display:inline-flex;" data-gtm="pain_book_click">
+          Start with a Free Consultation →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ SERVICES ═══ -->
+<section id="services">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-eyebrow">What we treat</span>
+      <h2>Every dental need, under one roof</h2>
+      <p style="color:var(--ink3); max-width:520px; margin:12px auto 0;">From your child's first visit to full smile makeovers — we handle it all with the same compassionate care.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-in" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})" data-gtm="service_click_smile">
+        <div class="service-icon">✨</div>
+        <h3>Smile Makeover & Cosmetic</h3>
+        <p>Aligners, veneers, teeth whitening, smile designing. Look and feel confident in every photo and meeting.</p>
+        <div class="service-price">→ Free smile assessment</div>
+      </div>
+      <div class="service-card fade-in" style="transition-delay:0.07s" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})" data-gtm="service_click_rct">
+        <div class="service-icon">🦷</div>
+        <h3>Root Canal Treatment</h3>
+        <p>Modern, painless RCT using rotary endodontics. Most patients say it was far easier than they expected.</p>
+        <div class="service-price">→ Book pain consultation</div>
+      </div>
+      <div class="service-card fade-in" style="transition-delay:0.14s" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})" data-gtm="service_click_implants">
+        <div class="service-icon">🔬</div>
+        <h3>Dental Implants & Crowns</h3>
+        <p>Permanent, natural-looking tooth replacement. Stop hiding gaps — restore your full smile.</p>
+        <div class="service-price">→ Get implant assessment</div>
+      </div>
+      <div class="service-card fade-in" style="transition-delay:0.07s" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})" data-gtm="service_click_braces">
+        <div class="service-icon">😁</div>
+        <h3>Braces & Invisible Aligners</h3>
+        <p>Metal braces, ceramic, or Invisalign-style clear aligners. Straighten teeth discreetly at any age.</p>
+        <div class="service-price">→ Aligner consultation</div>
+      </div>
+      <div class="service-card fade-in" style="transition-delay:0.14s" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})" data-gtm="service_click_pediatric">
+        <div class="service-icon">👶</div>
+        <h3>Pediatric Dental Care</h3>
+        <p>Child-friendly environment, gentle approach, and parent-friendly explanations. Start them healthy early.</p>
+        <div class="service-price">→ Book kids' checkup</div>
+      </div>
+      <div class="service-card fade-in" style="transition-delay:0.21s" onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})" data-gtm="service_click_cleaning">
+        <div class="service-icon">🪥</div>
+        <h3>Preventive & Cleaning</h3>
+        <p>Regular scaling, polishing, and oral health check. The smartest way to avoid bigger problems later.</p>
+        <div class="service-price">→ Book routine cleaning</div>
+      </div>
+    </div>
+
+    <!-- Triple CTA -->
+    <div class="triple-cta fade-in">
+      <div class="triple-cta-item">
+        <div class="triple-icon">📅</div>
+        <h3>Book online</h3>
+        <p>Fill a quick form — we confirm in 30 mins</p>
+        <a href="#book" class="btn-primary" data-gtm="triple_book_click">Book free slot</a>
+      </div>
+      <div class="triple-cta-item featured">
+        <div class="triple-icon">💬</div>
+        <h3>Chat on WhatsApp</h3>
+        <p>Quickest way — our team replies instantly</p>
+        <a href="https://wa.me/919182417298?text=Hi%2C%20I%27d%20like%20to%20know%20more" class="btn-wa" target="_blank" rel="noopener" data-gtm="triple_wa_click">Message us now</a>
+      </div>
+      <div class="triple-cta-item">
+        <div class="triple-icon">📞</div>
+        <h3>Call us directly</h3>
+        <p>Speak to our team right now</p>
+        <a href="tel:+919182417298" class="btn-call" data-gtm="triple_call_click">+91 91 8241 7298</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="why">
+  <div class="container">
+    <div class="why-grid">
+      <div class="fade-in">
+        <span class="section-eyebrow">Why patients choose us</span>
+        <h2>Care that feels human,<br/>not clinical</h2>
+        <ul class="why-list" style="margin-top:28px">
+          <li class="why-item">
+            <div class="why-icon-wrap">🧠</div>
+            <div>
+              <h3>Patient education first</h3>
+              <p>We explain what's happening, why it's needed, and what to expect — before touching anything.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-icon-wrap">💰</div>
+            <div>
+              <h3>No surprise bills</h3>
+              <p>Full cost breakdown given upfront. EMI options available for larger treatments.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-icon-wrap">⏰</div>
+            <div>
+              <h3>Respect for your time</h3>
+              <p>Punctual appointments, efficient treatment, and flexible slots including evenings and Saturdays.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-icon-wrap">🏥</div>
+            <div>
+              <h3>Clinic-grade hygiene</h3>
+              <p>Autoclave-sterilised instruments, single-use items, and international infection control standards.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="doctor-card fade-in" style="transition-delay:0.1s">
+        <div class="doctor-tag">Lead Dentist</div>
+        <h3>Dr. [Doctor Name]</h3>
+        <p style="font-size:0.92rem; color:var(--ink3); margin-bottom:4px;">BDS · MDS (Oral Medicine) · [University Name]</p>
+        <p style="font-size:0.92rem; color:var(--ink2);">Specialised in painless restorative and cosmetic dentistry with over a decade of helping Hyderabad patients rediscover their confidence.</p>
+        <div class="doctor-stats">
+          <div class="doc-stat">
+            <div class="doc-stat-n">10+</div>
+            <div class="doc-stat-l">Years experience</div>
+          </div>
+          <div class="doc-stat">
+            <div class="doc-stat-n">500+</div>
+            <div class="doc-stat-l">Smile transformations</div>
+          </div>
+          <div class="doc-stat">
+            <div class="doc-stat-n">4.9★</div>
+            <div class="doc-stat-l">Patient rating</div>
+          </div>
+          <div class="doc-stat">
+            <div class="doc-stat-n">0</div>
+            <div class="doc-stat-l">Unnecessary procedures</div>
+          </div>
+        </div>
+        <div class="creds">
+          <span class="cred-pill">Smile Designing</span>
+          <span class="cred-pill">Implantology</span>
+          <span class="cred-pill">Painless RCT</span>
+          <span class="cred-pill">Orthodontics</span>
+          <span class="cred-pill">Pediatrics</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ BOOKING FORM (was testimonials slot) ═══ -->
+<section id="book" style="background:var(--ivory)">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-eyebrow">GET STARTED TODAY</span>
+      <h2>How would you like to reach us?</h2>
+      <p style="color:var(--ink3); max-width:460px; margin:12px auto 0;">Pick what's easiest for you — form, WhatsApp, or a direct call. All 3 work perfectly.</p>
+    </div>
+    <div class="form-wrap fade-in">
+
+      <!-- Channel selector -->
+      <div class="form-header-trio" id="channelSelector">
+        <div class="form-channel-btn active" onclick="selectChannel('form', this)">
+          <span class="ch-icon">📋</span>
+          <span class="ch-label">Fill a form</span>
+        </div>
+        <div class="form-channel-btn" onclick="selectChannel('wa', this)">
+          <span class="ch-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle">
+              <path d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.16 1.6 5.97L0 24l6.18-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.22-3.48-8.52zM12 22c-1.85 0-3.67-.5-5.25-1.44l-.38-.22-3.67.96.98-3.58-.25-.4A9.94 9.94 0 0 1 2 12C2 6.48 6.48 2 12 2c2.67 0 5.18 1.04 7.07 2.93A9.93 9.93 0 0 1 22 12c0 5.52-4.48 10-10 10zm5.44-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.09 3.19 5.07 4.48.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.19-.57-.34z" fill="#25D366"/>
+            </svg>
+          </span>
+          <span class="ch-label">WhatsApp us</span>
+        </div>
+        <div class="form-channel-btn" onclick="selectChannel('call', this)">
+          <span class="ch-icon">📞</span>
+          <span class="ch-label">Call directly</span>
+        </div>
+      </div>
+
+      <!-- Form channel -->
+      <div id="ch-form">
+        <form id="bookingForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your name *</label>
+              <input type="text" id="name" name="name" placeholder="Priya Reddy" required/>
+            </div>
+            <div class="form-group">
+              <label for="phone">WhatsApp / phone *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">What do you need help with?</label>
+            <select id="service" name="service">
+              <option value="">Select a treatment</option>
+              <option>Smile Makeover / Cosmetic Dentistry</option>
+              <option>Root Canal Treatment</option>
+              <option>Dental Implants</option>
+              <option>Braces / Aligners</option>
+              <option>Teeth Whitening</option>
+              <option>Routine Cleaning / Checkup</option>
+              <option>Pediatric Care (Child)</option>
+              <option>Not sure — need advice</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date"/>
+            </div>
+            <div class="form-group">
+              <label for="time">Preferred time</label>
+              <select id="time" name="time">
+                <option value="">Select slot</option>
+                <option>Morning (9 AM – 12 PM)</option>
+                <option>Afternoon (12 PM – 4 PM)</option>
+                <option>Evening (4 PM – 8 PM)</option>
+                <option>Saturday morning</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="concern">Your main concern (optional)</label>
+            <textarea id="concern" name="concern" placeholder="E.g. I'm scared of treatment, or I want to fix my smile before a wedding…"></textarea>
+          </div>
+          <button type="submit" class="submit-btn" data-gtm="form_submit">
+            📅 CONFIRM MY FREE CONSULTATION
+          </button>
+          <p class="form-note">🔒 Private &amp; confidential. We'll confirm via WhatsApp within 30 minutes.</p>
+        </form>
+      </div>
+
+      <!-- WhatsApp channel -->
+      <div id="ch-wa" style="display:none; text-align:center; padding:24px 0">
+        <div style="margin-bottom:16px">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.16 1.6 5.97L0 24l6.18-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.22-3.48-8.52zM12 22c-1.85 0-3.67-.5-5.25-1.44l-.38-.22-3.67.96.98-3.58-.25-.4A9.94 9.94 0 0 1 2 12C2 6.48 6.48 2 12 2c2.67 0 5.18 1.04 7.07 2.93A9.93 9.93 0 0 1 22 12c0 5.52-4.48 10-10 10zm5.44-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.09 3.19 5.07 4.48.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.19-.57-.34z" fill="#25D366"/>
+          </svg>
+        </div>
+        <h3 style="font-family:var(--font-display); margin-bottom:10px;">Chat with our team</h3>
+        <p style="color:var(--ink3); margin-bottom:28px; max-width:360px; margin-left:auto; margin-right:auto;">We typically reply within 5 minutes. Just tap the button below and send us a quick message.</p>
+        <a href="https://wa.me/919182417298?text=Hi%20Nissi%20Dental%2C%20I%27d%20like%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener" class="btn-wa" style="display:inline-flex; padding:16px 36px; font-size:1.05rem;" data-gtm="form_wa_click">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.16 1.6 5.97L0 24l6.18-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.22-3.48-8.52zM12 22c-1.85 0-3.67-.5-5.25-1.44l-.38-.22-3.67.96.98-3.58-.25-.4A9.94 9.94 0 0 1 2 12C2 6.48 6.48 2 12 2c2.67 0 5.18 1.04 7.07 2.93A9.93 9.93 0 0 1 22 12c0 5.52-4.48 10-10 10zm5.44-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.09 3.19 5.07 4.48.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.19-.57-.34z" fill="#fff"/></svg>
+          OPEN WHATSAPP NOW
+        </a>
+        <p style="font-size:0.82rem; color:var(--ink3); margin-top:16px;">Available Mon–Sat, 9 AM – 8 PM</p>
+      </div>
+
+      <!-- Call channel -->
+      <div id="ch-call" style="display:none; text-align:center; padding:24px 0">
+        <div style="font-size:3.5rem; margin-bottom:16px">📞</div>
+        <h3 style="font-family:var(--font-display); margin-bottom:10px;">Call us directly</h3>
+        <p style="color:var(--ink3); margin-bottom:28px; max-width:360px; margin-left:auto; margin-right:auto;">Speak to our front desk team right now. We'll find you the earliest available slot.</p>
+        <a href="tel:+919182417298" class="btn-call" style="display:inline-flex; padding:16px 36px; font-size:1.1rem; font-weight:600;" data-gtm="form_call_click">
+          📞 +91 91 8241 7298
+        </a>
+        <p style="font-size:0.82rem; color:var(--ink3); margin-top:16px;">Mon–Sat: 9 AM – 8 PM &nbsp;·&nbsp; Sun: Emergency only</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ FAQ ═══ -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div class="fade-in">
+        <span class="section-eyebrow">Common concerns</span>
+        <h2>The questions you're afraid to ask</h2>
+        <ul class="faq-list" style="margin-top:32px">
+          <li class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">Is root canal treatment painful? <span class="arrow">+</span></button>
+            <div class="faq-a">Modern RCT with proper anaesthesia is no more uncomfortable than a filling. Most of our patients are genuinely surprised at how comfortable the experience is. The fear is almost always worse than the procedure.</div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">How much do treatments cost? <span class="arrow">+</span></button>
+            <div class="faq-a">We give you a complete cost estimate before starting any treatment — no surprises. Cleaning starts from ₹800. RCT from ₹3,500. Implants from ₹25,000. Aligners from ₹45,000. EMI options available.</div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">Am I too old for braces or aligners? <span class="arrow">+</span></button>
+            <div class="faq-a">Absolutely not. We regularly treat patients in their 30s, 40s, and 50s. Clear aligners are almost invisible — many of our corporate professional patients choose them for exactly this reason.</div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">Will you judge my teeth if I've neglected them? <span class="arrow">+</span></button>
+            <div class="faq-a">Never. Our team is trained specifically in non-judgmental care. We've seen everything and our job is to help you move forward, not make you feel bad about the past.</div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">Do you have slots on evenings or Saturdays? <span class="arrow">+</span></button>
+            <div class="faq-a">Yes — we have appointments from 9 AM to 8 PM on weekdays and 9 AM to 3 PM on Saturdays. We know your work schedule doesn't stop for dental visits.</div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this)">Is the consultation really free? <span class="arrow">+</span></button>
+            <div class="faq-a">Yes. Your first consultation — including examination and treatment discussion — is completely free with no obligation to proceed. We want you to make an informed decision, not a pressured one.</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="faq-cta-box fade-in" style="transition-delay:0.1s">
+        <h3>Ready to finally take care of this?</h3>
+        <p>Book your free consultation today. No pressure, no judgment — just an honest conversation about your dental health.</p>
+        <a href="#book" class="btn-white" data-gtm="faq_book_click">📅 Book Free Consultation</a>
+        <a href="https://wa.me/919182417298?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20treatments" class="btn-wa-dark" target="_blank" rel="noopener" data-gtm="faq_wa_click">💬 Chat on WhatsApp</a>
+        <p style="color:rgba(255,255,255,0.6); font-size:0.82rem; text-align:center; margin-top:16px; margin-bottom:0;">📍 Serving Gachibowli · Kondapur · Hitech City · Madhapur · Manikonda · Jubilee Hills</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ FOOTER ═══ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Nissi<span>Dental</span></div>
+        <p class="footer-about">Multi-specialty dental clinic in Hyderabad. Compassionate, honest, and advanced dental care for the whole family — from routine cleanups to full smile transformations.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Treatments</h4>
+        <a href="#services">Smile Makeover</a>
+        <a href="#services">Root Canal</a>
+        <a href="#services">Dental Implants</a>
+        <a href="#services">Braces & Aligners</a>
+        <a href="#services">Pediatric Dentistry</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>📍 [Clinic Address], Hyderabad</p>
+        <a href="tel:+919182417298">📞 +91 91 8241 7298</a>
+        <a href="https://wa.me/919182417298" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <p>⏰ Mon–Sat: 9 AM – 8 PM</p>
+        <p>⏰ Sun: Emergency only</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Nissi Dental. All rights reserved.</span>
+      <span>Built with care for Hyderabad families 🦷</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════ MOBILE STICKY BAR ═══ -->
+<div class="sticky-bottom">
+  <a href="tel:+919182417298" class="btn-call" data-gtm="mobile_call_click">📞 Call</a>
+  <a href="https://wa.me/919182417298?text=Hi%20Nissi%20Dental%2C%20I%27d%20like%20to%20book%20a%20free%20consultation" class="btn-wa" target="_blank" rel="noopener" data-gtm="mobile_wa_click">💬 WhatsApp</a>
+  <a href="#book" class="btn-primary" data-gtm="mobile_book_click">📅 Book Free</a>
+</div>
+
+
+<a class="wa-float" href="https://wa.me/919182417298?text=Hi%20Nissi%20Dental%2C%20I%27d%20like%20to%20book%20an%20appointment" target="_blank" rel="noopener" title="Chat on WhatsApp" data-gtm="float_wa_click">💬</a>
+
+<!-- ═══════════════════════════════════════════ SCRIPTS ═══ -->
+<script>
+window.dataLayer = window.dataLayer || [];
+
+// ── Fade-in observer ───────────────────────────────────────────
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// ── FAQ toggle ─────────────────────────────────────────────────
+function toggleFaq(btn) {
+  const answer = btn.nextElementSibling;
+  const isOpen = btn.classList.contains('open');
+  document.querySelectorAll('.faq-q.open').forEach(b => {
+    b.classList.remove('open');
+    b.nextElementSibling.classList.remove('open');
+  });
+  if(!isOpen) { btn.classList.add('open'); answer.classList.add('open'); }
+  window.dataLayer.push({ event: 'faq_click', faq_question: btn.textContent.trim() });
+}
+
+// ── GTM click tracking ─────────────────────────────────────────
+document.querySelectorAll('[data-gtm]').forEach(el => {
+  el.addEventListener('click', function() {
+    window.dataLayer.push({ event: this.dataset.gtm, element_text: this.textContent.trim() });
+  });
+});
+
+// ── Channel switcher (form / wa / call) ────────────────────────
+function selectChannel(ch, btn) {
+  document.querySelectorAll('.form-channel-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('ch-form').style.display = ch === 'form' ? 'block' : 'none';
+  document.getElementById('ch-wa').style.display   = ch === 'wa'   ? 'block' : 'none';
+  document.getElementById('ch-call').style.display = ch === 'call' ? 'block' : 'none';
+  window.dataLayer.push({ event: 'channel_select', channel: ch });
+}
+
+// ── Apps Script Web App URL — paste yours after deploying ─────────
+// Replace the placeholder below with your actual deployed URL:
+// script.google.com → Deploy → New Deployment → Web App → Copy URL
+const APPSSCRIPT_URL = "https://script.google.com/macros/s/AKfycby9Z6ilv5AIXP62mZLQTO7y8k8ppTkY1IezUPdK2S4LQLwOuzqq3BOSFSdih9ebCfAxfQ/exec";
+
+// ── Form submission → Apps Script + WhatsApp ──────────────────────
+async function handleSubmit(e) {
+  e.preventDefault();
+  const form    = e.target;
+  const btn     = form.querySelector('.submit-btn');
+  const data    = new FormData(form);
+
+  const lead = {
+    name:    data.get('name')    || '',
+    phone:   data.get('phone')   || '',
+    email:   data.get('email')   || '',
+    service: data.get('service') || 'Not specified',
+    date:    data.get('date')    || 'Flexible',
+    time:    data.get('time')    || 'Flexible',
+    concern: data.get('concern') || '',
+    source:  'Landing Page'
+  };
+
+  // GTM event
+  window.dataLayer.push({ event: 'form_submission', service_selected: lead.service, preferred_time: lead.time });
+
+  // Loading state
+  btn.disabled = true;
+  btn.textContent = 'Sending…';
+
+  // 1️⃣ POST to Apps Script (sheet + email + WA alert)
+  let scriptOk = false;
+  if (APPSSCRIPT_URL && !APPSSCRIPT_URL.includes('YOUR_APPS')) {
+    try {
+      await fetch(APPSSCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors', // Apps Script requires no-cors
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(lead)
+      });
+      scriptOk = true;
+    } catch(err) {
+      console.warn('Apps Script POST failed — falling back to WhatsApp only', err);
+    }
+  }
+
+  // 2️⃣ Always also open WhatsApp (works even if script fails)
+  const msg =
+    `Hi%20Nissi%20Dental!%20New%20consultation%20request%20from%20the%20website.%0A%0A` +
+    `Name%3A%20${encodeURIComponent(lead.name)}%0A` +
+    `Phone%3A%20${encodeURIComponent(lead.phone)}%0A` +
+    `Treatment%3A%20${encodeURIComponent(lead.service)}%0A` +
+    `Date%3A%20${encodeURIComponent(lead.date)}%0A` +
+    `Time%3A%20${encodeURIComponent(lead.time)}%0A` +
+    `Concern%3A%20${encodeURIComponent(lead.concern)}`;
+  window.open(`https://wa.me/919182417298?text=${msg}`, '_blank');
+
+  // 3️⃣ Success state
+  form.innerHTML = `
+    <div style="text-align:center; padding:32px 0">
+      <div style="font-size:3.2rem; margin-bottom:16px">🎉</div>
+      <h3 style="font-family:var(--font-display); color:var(--teal); margin-bottom:10px">You're all set, ${lead.name.split(' ')[0] || 'there'}!</h3>
+      <p style="color:var(--ink3); margin-bottom:6px">Your request has been <strong>logged</strong> and our team has been <strong>notified instantly</strong>.</p>
+      <p style="color:var(--ink3); margin-bottom:24px">We've also opened WhatsApp for you — expect a confirmation within <strong>30 minutes</strong>.</p>
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap">
+        <a href="tel:+919182417298" class="btn-call" style="text-decoration:none; display:inline-flex; padding:12px 24px;" data-gtm="success_call_click">📞 Call to confirm faster</a>
+        <a href="https://wa.me/919182417298?text=Hi%20Nissi%20Dental%2C%20following%20up%20on%20my%20consultation%20request" class="btn-wa" style="text-decoration:none; display:inline-flex; padding:12px 24px;" target="_blank" rel="noopener" data-gtm="success_wa_click">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="margin-right:6px"><path d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.16 1.6 5.97L0 24l6.18-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.22-3.48-8.52zM12 22c-1.85 0-3.67-.5-5.25-1.44l-.38-.22-3.67.96.98-3.58-.25-.4A9.94 9.94 0 0 1 2 12C2 6.48 6.48 2 12 2c2.67 0 5.18 1.04 7.07 2.93A9.93 9.93 0 0 1 22 12c0 5.52-4.48 10-10 10zm5.44-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.09 3.19 5.07 4.48.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.19-.57-.34z" fill="#fff"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  `;
+}
+
+
+// ── Set min date ───────────────────────────────────────────────
+const dateInput = document.getElementById('date');
+if(dateInput) dateInput.setAttribute('min', new Date().toISOString().split('T')[0]);
+
+// ── Simulated live viewer count (social proof) ─────────────────
+const viewEl = document.getElementById('viewCount');
+if(viewEl) {
+  const base = 8 + Math.floor(Math.random() * 10);
+  viewEl.textContent = base + ' people';
+  setInterval(() => {
+    const delta = Math.random() > 0.5 ? 1 : -1;
+    const cur = parseInt(viewEl.textContent);
+    const next = Math.max(6, Math.min(24, cur + delta));
+    viewEl.textContent = next + ' people';
+  }, 7000);
+}
+</script>
+
+
+</body>
+</html>
